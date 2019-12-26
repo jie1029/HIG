@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff5df">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="item"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/institution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="주최기관 : "
+            android:textColor="@android:color/black"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="지역 : "
+            android:textColor="@android:color/black"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="날짜 : "
+            android:textColor="@android:color/black"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/site"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="참고 사이트 : "
+            android:textColor="@android:color/black"
+            android:textSize="20sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="추천인 : 0"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_gravity="center"/>
+        <Button
+            android:id="@+id/addBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="추가하기"
+            android:background="@drawable/border_btn"
+            android:textSize="20sp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ItemDetail"
+    android:background="#fff5df"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_btn">
+        <Button
+            android:id="@+id/btnad"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="홍보"
+            android:textSize="20sp"
+            android:background="@drawable/border_btn"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="상세내용"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnmain"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="메인"
+            android:textSize="20sp"
+            android:background="@drawable/border_btn"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="주최기관 : "
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+            <TextView
+                android:id="@+id/locationText"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="25sp"
+                android:textColor="@android:color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="축제명 : "
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+            <TextView
+                android:id="@+id/titleText"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="25sp"
+                android:textColor="@android:color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="기간 : "
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+            <TextView
+                android:id="@+id/dateText"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:textSize="25sp"
+                android:textColor="@android:color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="주소 : "
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+            <TextView
+                android:id="@+id/addressText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="@android:color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="전화번호 : "
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+            <TextView
+
+                android:id="@+id/numberText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Site : "
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+            <Button
+                android:background="#00FF0000"
+                android:id="@+id/siteText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="@android:color/holo_blue_dark"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:layout_marginTop="25dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="내용 : "
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/detailText"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:padding="6dp"
+                android:background="@drawable/border"
+                android:textColor="@android:color/black"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="삭제하기"
+                android:textSize="25sp"
+                android:id="@+id/deleteBtn"
+                android:background="@drawable/border_btn"
+                android:layout_marginRight="60dp"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="리뷰작성"
+                android:textSize="25sp"
+                android:background="@drawable/border_btn"
+                android:id="@+id/reviewBtn"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
