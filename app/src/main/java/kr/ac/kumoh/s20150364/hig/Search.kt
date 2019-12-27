@@ -82,7 +82,7 @@ class Search : AppCompatActivity() {
 
     private fun requestInternet(){
 
-        val url = "http://202.31.200.140/test/search.php?date="+date+"&place="+place
+        val url = "http://IP/filename
 
         val request = JsonObjectRequest(
             Request.Method.GET,
